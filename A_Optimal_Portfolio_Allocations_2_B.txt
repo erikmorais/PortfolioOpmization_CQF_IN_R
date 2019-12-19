@@ -1,0 +1,26 @@
+#######################################################
+#####   SEE SOLUTION CODING IN R FILE       ###########
+#####   A_Optimal_Portfolio_Allocations_2_B_Code.R ####
+#######################################################
+
+#   2.b) Consider the following optimization task for a targeted 
+#        return m = 10%, for which the net of
+#        allocations invested (borrowed) in a risk-free asset:
+
+Covariance matrix
+
+        [,1]    [,2]    [,3]    [,4]
+[1,] 0.00490 0.00168 0.00630 0.00546
+[2,] 0.00168 0.01440 0.01512 0.01248
+[3,] 0.00630 0.01512 0.03240 0.04212
+[4,] 0.00546 0.01248 0.04212 0.06760
+
+w* ( Optimal portfolio )
+           [,1]
+[1,]  0.5970869
+[2,]  0.5931980
+[3,] -0.9217009
+[4,]  0.4524670
+
+std dev portfolio 
+0.02045994

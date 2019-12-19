@@ -1,0 +1,39 @@
+#######################################################
+#####   SEE SOLUTION CODING IN R FILE       ###########
+#####   A_Optimal_Portfolio_Allocations_4_code.R ####
+
+
+# Assumptions
+# returns are computed dialy
+
+--------------------------
+# 4.a.1 VaR
+Mean 1d in %
+3.967161 %
+
+std 1d in %
+2.837516 %
+
+VaR 1 day in % from daily returns
+-2.633888 %
+-------------------------
+
+# 4.b  marginal Contributions
+dVaR/dw in %:
+           [,1]
+[1,]  -2.663570
+[2,]  -6.279079
+[3,]  -9.894588
+[4,] -12.606220
+
+Marginal contributions in %
+          [,1]
+[1,] -2.205646
+[2,] -5.165705
+[3,] 12.647997
+[4,] -7.910534
+-------------------------
+
+# 4.c Expected ShortFail
+Expected ShortFail in %
+11.52975 %
